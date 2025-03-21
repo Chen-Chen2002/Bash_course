@@ -33,7 +33,6 @@ bedtools bamtobed -i $input_bam > $output_bed.bed # > makes it so the bedfile is
 
 # create filtered BED file containing only regions from chromosome 1 using regex
 grep -E -i "^chr1\s" $output_bed.bed > ${output_bed}_chr1.bed # filter using grep
-echo -n20 ${output_bed}_chr1.bed #
 
 # counts number  of lines in the bedfile
 wc -l ${output_bed}_chr1.bed > $output_dir/bam2bed_number_of_rows.txt
