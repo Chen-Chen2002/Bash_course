@@ -1,11 +1,11 @@
 # bed2bam.sh 
 #
 # Script converts BAM file into a BED file and filters it using regex. 
-# Input: 	BAM file
-#		      output directory
-# Output:	BED file (converted from BAM file)
-#		      filtered BED file containing only regions from chromosome 1
-#		      txt file with the number of lines in the bedfile
+# Input: 		BAM file
+#			output directory
+# Output:		BED file (converted from BAM file)
+#			filtered BED file containing only regions from chromosome 1
+#			txt file with the number of lines in the bedfile
 
 
 # Set path
